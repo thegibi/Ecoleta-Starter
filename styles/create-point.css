@@ -81,6 +81,7 @@ form button {
     font-weight: bold;
     margin-top: 40px;
     transition: 400ms;
+    cursor: pointer;
 }
 form button:hover {
     background-color: #2fb86e;
