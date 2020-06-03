@@ -1,0 +1,44 @@
+#page-create-point {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+#page-create-point header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+}
+#page-create-point header a {
+    color: var(--title-color);
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+#page-create-point header a span {
+    background-image: url("../assets/arrow-left.svg");
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+    display: flex;
+}
+form {
+    background-color: white;
+    max-width: 730px;
+    margin: 80px auto;
+    padding: 64px;
+    border-radius: 8px;
+}
+form h1 {
+    font-size: 36px;
+}
+form fieldset {
+    margin-top: 64px;
+    border: 0;
+}
+form legend {
+    margin-bottom: 40px;
+}
+form legend h2 {
+    font-size: 24px;
+}
