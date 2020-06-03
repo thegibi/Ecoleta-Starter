@@ -1,1 +1,3 @@
-<img src="https://www.figma.com/file/TEC7skHaBXGY6DJrCi34aq/Untitled?node-id=0%3A1">
+<h1 align="center">
+<img src="https://github.com/gibifyOfficial/Ecoleta/blob/master/assets/template-ecoleta.png">
+</h1>
