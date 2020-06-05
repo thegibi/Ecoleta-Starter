@@ -1,72 +1,61 @@
-<!DOCTYPE html>
-<html lang="pt_br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="/styles/main.css">
+{% extends "layout.html" %}
+{% block style %}
     <link rel="stylesheet" href="/styles/search-results.css">
+{% endblock style %}
 
-    <link rel="stylesheet" href="/styles/responsive.css">
-
+{% block title %}
     <title>Resultado da Pesquisa</title>
+{% endblock title %}
 
-</head>
-<body>
-    <div id="page-search-results">
+{% set pageId = "page-search-results" %}
 
-       
-        <header>
-            <h3><img src="/assets/logo.svg" alt="logomarca"></h3>
-            <a href="/index.html">
-                <span></span>
-                Voltar para home
-                </a>
-        </header>
+{% block content %}
+    {% include "partials/page-header.html" %}
 
-        <main>
-            <h4>
-                <strong>2 pontos</strong> encontrados
-            </h4>
-            <div class="cards">
-                <div class="card">
-                    <img src="https://images.unsplash.com/photo-1539692267500-f384fb119654?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=411&q=80" alt="Colectoria">
-                    <h1>Colectoria</h1>
-                    <h3>Resíduos Eletrônicos</h3>
-                    <p>
-                        Rio do Sul,  Santa catarina <br/>
-                        Guilherme Gemballa, Jardim América <br/>
-                        Número 260
-                    </p>
-                </div>
-
-                <div class="card">
-                    <img src="https://images.unsplash.com/photo-1567393528677-d6adae7d4a0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="Papersider">
-                    <h1>Papersider</h1>
-                    <h3>Papéis e Papelão</h3>
-                    <p>
-                        Rio do Sul,  Santa catarina <br/>
-                        Muller, Jardim da Paz <br/>
-                        Número 2600
-                    </p>
-                </div>
-
-                <div class="card">
-                    <img src="https://images.unsplash.com/photo-1481761289552-381112059e05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=861&q=80" alt="Papersider">
-                    <h1>Recicle</h1>
-                    <h3>Óleo de Cozinha</h3>
-                    <p>
-                        Rio do Sul,  Santa catarina <br/>
-                        João Batista, Centro <br/>
-                        Número 1850
-                    </p>
-                </div>
+    <main>
+        <h4>
+            <strong>2 pontos</strong>
+            encontrados
+        </h4>
+        <div class="cards">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1539692267500-f384fb119654?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=411&q=80" alt="Colectoria">
+                <h1>Colectoria</h1>
+                <h3>Resíduos Eletrônicos</h3>
+                <p>
+                    Rio do Sul, Santa catarina
+                    <br/>
+                    Guilherme Gemballa, Jardim América
+                    <br/>
+                    Número 260
+                </p>
             </div>
-        </main>
-       
-        
-        
-    </div>
-    
-</body>
-</html>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1567393528677-d6adae7d4a0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="Papersider">
+                <h1>Papersider</h1>
+                <h3>Papéis e Papelão</h3>
+                <p>
+                    Rio do Sul, Santa catarina
+                    <br/>
+                    Muller, Jardim da Paz
+                    <br/>
+                    Número 2600
+                </p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1481761289552-381112059e05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=861&q=80" alt="Papersider">
+                <h1>Recicle</h1>
+                <h3>Óleo de Cozinha</h3>
+                <p>
+                    Rio do Sul, Santa catarina
+                    <br/>
+                    João Batista, Centro
+                    <br/>
+                    Número 1850
+                </p>
+            </div>
+        </div>
+    </main>
+{% endblock content %}

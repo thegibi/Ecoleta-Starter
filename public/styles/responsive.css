@@ -18,6 +18,16 @@
     main {
         align-items: center;
     }
+    #page-search-results .card img {
+        height: 250px;
+    }
+    #page-create-point .field-group {
+        flex-direction: column;
+    }
+    #page-create-point .field-group .field + .field {
+        margin-left: 0;
+    }
+
 }
 @media (min-width: 1700px) {
     #page-home {
