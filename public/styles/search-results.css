@@ -57,11 +57,15 @@ main .card h3 {
     line-height: 34px;
     color: var(--primary-color);
 }
+body {
+    background-color: white;
+}
 body::after {
     content: "";
-    position: fixed;
-    background-color: white;
-    top: 260px;
+    position: absolute;
+    background-color: #f0f0f5;
+    height: 16rem;
+    top: 0;
     right: 0;
     left: 0;
     bottom: 0;
