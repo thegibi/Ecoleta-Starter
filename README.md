@@ -15,4 +15,7 @@
  * [JavaScript](https://www.javascript.com/)
  * [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) 
  * [CSS3](https://developer.mozilla.org/en-US/docs/Archive/CSS3) 
+ 
+ ## LICENSE
+ [MIT LICENSE]()
   
