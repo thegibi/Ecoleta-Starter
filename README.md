@@ -7,9 +7,9 @@
  ## Descrição do Projeto:
  #### Este projeto é uma site para gerenciamento de coletas de resíduos de forma eficiente e consciente. Pontos de coletas e quais tipos de coletas fazem porerão ser cadastrados, onde pessoas ou entidade podem fazer a buscar de acordo com o estado e cidade , assim poderão escolher quais entidades vão recolher seus resíduos e onde está a entidade mais próxima de sua localização.
  ## Sobre o desenvolvimento do Projeto:
- #### Este projeto foi desenvolvimento durante a Next Level Week, um evento da <a href="https://rocketseat.com.br" target="_blank">RocketSeat</a>}, e ministrado pelo instrutor [Mayk Brito](https://github.com/maykbrito){:target="_blank"}.
+ #### Este projeto foi desenvolvimento durante a Next Level Week, um evento da <a href="https://rocketseat.com.br" target="_blank">RocketSeat</a>, e ministrado pelo instrutor <a href="https://github.com/maykbrito" target="_blank">Mayk Brito</a>.
  ## Tecnologias usadas no Projeto:
- * [NodeJS](https://nodejs.org/en/download/)
+ * <a href="https://nodejs.org/en/download/" target="_blank">NodeJS</a>
  * [Npm](https://www.npmjs.com/get-npm)
  * [ExpressJS](https://expressjs.com/)
  * [Nodemon](https://nodemon.io/)
