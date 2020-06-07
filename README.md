@@ -9,11 +9,12 @@
  ## Sobre o desenvolvimento do Projeto:
  #### Este projeto foi desenvolvimento durante a Next Level Week, um evento da [RocketSeat](https://rocketseat.com.br), e ministrado pelo instrutor [Mayk Brito](https://github.com/maykbrito).
  ## Tecnologias usadas no Projeto:
- * [NodeJS](https://nodejs.org/en/download/)
+ * [NodeJS](https://nodejs.org/en/docs/)
  * [Npm](https://www.npmjs.com/get-npm)
  * [ExpressJS](https://expressjs.com/)
  * [Nodemon](https://nodemon.io/)
- * [Nunjucks](https://mozilla.github.io/nunjucks/getting-started.html)
+ * [Nunjucks](https://mozilla.github.io/nunjucks/templating.html)
+ * [SQLite3](https://www.sqlite.org/docs.html)
  * [JavaScript](https://www.javascript.com/)
  * [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
  * [CSS3](https://developer.mozilla.org/en-US/docs/Archive/CSS3)
