@@ -22,16 +22,17 @@
  ## Rodando a aplicação na sua máquina:
  
  ```shell 
- # clone o repositório na sua máquina
- git clone 
+ # clonando o repositório na sua máquina
+ git clone https://github.com/gibify/Ecoleta-Starter
  
- # instalando as dependências no projeto
+ # Instalando as dependências do projeto
  npm install
  
  # Inicando o projeto na porta <http://localhost:3333>
  npm start
  
  ```
+ 
  ## LICENSE
  [MIT](https://github.com/gibifyOfficial/Ecoleta/blob/master/LICENSE)
   
